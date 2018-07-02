@@ -1,0 +1,5 @@
++ make tag
+sed -i -e "s/version:.*/version: 0.0.1/" Chart.yaml
+sed -i -e "s/repository: .*/repository: 10.63.249.122:5000\/jstrachan\/bdd-test-golang-http-1530530042/" values.yaml
+sed -i -e "s/tag: .*/tag: 0.0.1/" values.yaml
+git add --all
